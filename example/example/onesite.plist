@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Onesite</key>
+	<dict>
+		<key>OnesiteDomain</key>
+		<string></string>
+		<key>OnesiteNodeId</key>
+		<string></string>
+		<key>OnesiteDevKey</key>
+		<string></string>
+		<key>OnesiteURLScheme</key>
+		<string>http</string>
+		<key>OnesiteServiceURL</key>
+		<string>services.onesite.com</string>
+		<key>OnesiteOAuthClientId</key>
+		<string></string>
+		<key>OnesiteOAuthSecret</key>
+		<string></string>
+		<key>OnesiteOAuthCallBackURL</key>
+		<string>onesite.com</string>
+	</dict>
+	<key>Facebook</key>
+	<dict>
+		<key>FacebookAppId</key>
+		<string></string>
+		<key>FacebookAPIKey</key>
+		<string></string>
+		<key>FacebookSecret</key>
+		<string></string>
+		<key>FacebookAppPermissions</key>
+		<array>
+			<string>email</string>
+			<string>read_stream</string>
+			<string>publish_stream</string>
+			<string>offline_access</string>
+			<string>user_checkins</string>
+			<string>friends_checkins</string>
+			<string>publish_checkins</string>
+		</array>
+	</dict>
+	<key>Twitter</key>
+	<dict>
+		<key>TwitterAPIKey</key>
+		<string></string>
+		<key>TwitterAPISecret</key>
+		<string></string>
+		<key>TwitterCallBackDomain</key>
+		<string></string>
+		<key>TwitterCallBackURL</key>
+		<string></string>
+	</dict>
+</dict>
+</plist>

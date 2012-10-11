@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		232D115B14CDF87A00703D4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232D115A14CDF87A00703D4E /* UIKit.framework */; };
+		232D115D14CDF87A00703D4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232D115C14CDF87A00703D4E /* Foundation.framework */; };
+		232D116514CDF87A00703D4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 232D116314CDF87A00703D4E /* InfoPlist.strings */; };
+		232D116714CDF87A00703D4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 232D116614CDF87A00703D4E /* main.m */; };
+		232D116B14CDF87A00703D4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 232D116A14CDF87A00703D4E /* AppDelegate.m */; };
+		232D118A14CDF95D00703D4E /* libonesite_ios_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 232D118614CDF88A00703D4E /* libonesite_ios_sdk.a */; };
+		232D118F14CDFA3B00703D4E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 232D118E14CDFA3B00703D4E /* MainViewController.m */; };
+		232D119114CDFA8400703D4E /* onesite.plist in Resources */ = {isa = PBXBuildFile; fileRef = 232D119014CDFA8400703D4E /* onesite.plist */; };
+		232D11A314CDFF5700703D4E /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 232D11A214CDFF5700703D4E /* SettingsViewController.m */; };
+		232D11A614CE033F00703D4E /* DDSSocialAccounts.m in Sources */ = {isa = PBXBuildFile; fileRef = 232D11A514CE033F00703D4E /* DDSSocialAccounts.m */; };
+		232D11B114CE073E00703D4E /* btn-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 232D11A814CE073E00703D4E /* btn-back.png */; };
+		232D11B214CE073E00703D4E /* btn-back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 232D11A914CE073E00703D4E /* btn-back@2x.png */; };
+		232D11B314CE073E00703D4E /* icn-social-facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 232D11AA14CE073E00703D4E /* icn-social-facebook.png */; };
+		232D11B414CE073E00703D4E /* icn-social-facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 232D11AB14CE073E00703D4E /* icn-social-facebook@2x.png */; };
+		232D11B514CE073E00703D4E /* icn-social-google.png in Resources */ = {isa = PBXBuildFile; fileRef = 232D11AC14CE073E00703D4E /* icn-social-google.png */; };
+		232D11B614CE073E00703D4E /* icn-social-google@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 232D11AD14CE073E00703D4E /* icn-social-google@2x.png */; };
+		232D11B714CE073E00703D4E /* icn-social-twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 232D11AE14CE073E00703D4E /* icn-social-twitter.png */; };
+		232D11B814CE073E00703D4E /* icn-social-twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 232D11AF14CE073E00703D4E /* icn-social-twitter@2x.png */; };
+		232D11B914CE073E00703D4E /* twitter_loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 232D11B014CE073E00703D4E /* twitter_loading.png */; };
+		232D11BC14CE075C00703D4E /* icn-settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 232D11BA14CE075C00703D4E /* icn-settings.png */; };
+		232D11BD14CE075C00703D4E /* icn-settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 232D11BB14CE075C00703D4E /* icn-settings@2x.png */; };
+		232D120714CF15D300703D4E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232D11F914CE15E500703D4E /* CFNetwork.framework */; };
+		232D120814CF15DA00703D4E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232D11FD14CE160100703D4E /* SystemConfiguration.framework */; };
+		232D120914CF15EC00703D4E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232D11FB14CE15FA00703D4E /* MobileCoreServices.framework */; };
+		232D120A14CF15F500703D4E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232D115E14CDF87A00703D4E /* CoreGraphics.framework */; };
+		232D120B14CF15FF00703D4E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 232D11FF14CE160900703D4E /* libz.dylib */; };
+		232D121014CF1EAC00703D4E /* icn-social-blank.png in Resources */ = {isa = PBXBuildFile; fileRef = 232D120C14CF1EAC00703D4E /* icn-social-blank.png */; };
+		232D121114CF1EAC00703D4E /* icn-social-blank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 232D120D14CF1EAC00703D4E /* icn-social-blank@2x.png */; };
+		232D121214CF1EAC00703D4E /* icn-social-onesite.png in Resources */ = {isa = PBXBuildFile; fileRef = 232D120E14CF1EAC00703D4E /* icn-social-onesite.png */; };
+		232D121314CF1EAC00703D4E /* icn-social-onesite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 232D120F14CF1EAC00703D4E /* icn-social-onesite@2x.png */; };
+		232D121614CF1F5B00703D4E /* navbar-notitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 232D121414CF1F5B00703D4E /* navbar-notitle.png */; };
+		232D121714CF1F5B00703D4E /* navbar-notitle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 232D121514CF1F5B00703D4E /* navbar-notitle@2x.png */; };
+		232D121C14CF230300703D4E /* ui-add-photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 232D121814CF230300703D4E /* ui-add-photo.png */; };
+		232D121D14CF230300703D4E /* ui-add-photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 232D121914CF230300703D4E /* ui-add-photo@2x.png */; };
+		232D121E14CF230300703D4E /* ui-photo-border.png in Resources */ = {isa = PBXBuildFile; fileRef = 232D121A14CF230300703D4E /* ui-photo-border.png */; };
+		232D121F14CF230300703D4E /* ui-photo-border@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 232D121B14CF230300703D4E /* ui-photo-border@2x.png */; };
+		232D122D14CF5BA200703D4E /* ui-table-background-cell.png in Resources */ = {isa = PBXBuildFile; fileRef = 232D122B14CF5BA200703D4E /* ui-table-background-cell.png */; };
+		232D122E14CF5BA200703D4E /* ui-table-background-cell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 232D122C14CF5BA200703D4E /* ui-table-background-cell@2x.png */; };
+		232D123114CF678300703D4E /* btn-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 232D122F14CF678300703D4E /* btn-green.png */; };
+		232D123214CF678300703D4E /* btn-green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 232D123014CF678300703D4E /* btn-green@2x.png */; };
+		232D123514CF69D800703D4E /* btn-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 232D123314CF69D800703D4E /* btn-red.png */; };
+		232D123614CF69D800703D4E /* btn-red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 232D123414CF69D800703D4E /* btn-red@2x.png */; };
+		232D123914CF6A9300703D4E /* btn-gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 232D123714CF6A9300703D4E /* btn-gray.png */; };
+		232D123A14CF6A9300703D4E /* btn-gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 232D123814CF6A9300703D4E /* btn-gray@2x.png */; };
+		232D123D14D056A100703D4E /* UIDatePickerActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 232D123C14D056A100703D4E /* UIDatePickerActionSheet.m */; };
+		232D124014D07A9200703D4E /* SmallerUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 232D123F14D07A9200703D4E /* SmallerUITableViewCell.m */; };
+		23B1EA9F16138BB700EF16E3 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B1EA9E16138BB700EF16E3 /* SignupViewController.m */; };
+		23B1EAA41614C16800EF16E3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B1EAA31614C16800EF16E3 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		232D118514CDF88A00703D4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 232D117A14CDF88A00703D4E /* onesite-ios-sdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 234755C414C724ED00D82EFD;
+			remoteInfo = "onesite-ios-sdk";
+		};
+		232D118814CDF95700703D4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 232D117A14CDF88A00703D4E /* onesite-ios-sdk.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 234755C314C724ED00D82EFD;
+			remoteInfo = "onesite-ios-sdk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		232D115614CDF87A00703D4E /* example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		232D115A14CDF87A00703D4E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		232D115C14CDF87A00703D4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		232D115E14CDF87A00703D4E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		232D116214CDF87A00703D4E /* example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "example-Info.plist"; sourceTree = "<group>"; };
+		232D116414CDF87A00703D4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		232D116614CDF87A00703D4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		232D116814CDF87A00703D4E /* example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "example-Prefix.pch"; sourceTree = "<group>"; };
+		232D116914CDF87A00703D4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		232D116A14CDF87A00703D4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		232D117A14CDF88A00703D4E /* onesite-ios-sdk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "onesite-ios-sdk.xcodeproj"; path = "../src/onesite-ios-sdk.xcodeproj"; sourceTree = "<group>"; };
+		232D118D14CDFA3B00703D4E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		232D118E14CDFA3B00703D4E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		232D119014CDFA8400703D4E /* onesite.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = onesite.plist; sourceTree = "<group>"; };
+		232D11A114CDFF5700703D4E /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		232D11A214CDFF5700703D4E /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		232D11A414CE033F00703D4E /* DDSSocialAccounts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSSocialAccounts.h; sourceTree = "<group>"; };
+		232D11A514CE033F00703D4E /* DDSSocialAccounts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDSSocialAccounts.m; sourceTree = "<group>"; };
+		232D11A814CE073E00703D4E /* btn-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-back.png"; sourceTree = "<group>"; };
+		232D11A914CE073E00703D4E /* btn-back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-back@2x.png"; sourceTree = "<group>"; };
+		232D11AA14CE073E00703D4E /* icn-social-facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn-social-facebook.png"; sourceTree = "<group>"; };
+		232D11AB14CE073E00703D4E /* icn-social-facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn-social-facebook@2x.png"; sourceTree = "<group>"; };
+		232D11AC14CE073E00703D4E /* icn-social-google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn-social-google.png"; sourceTree = "<group>"; };
+		232D11AD14CE073E00703D4E /* icn-social-google@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn-social-google@2x.png"; sourceTree = "<group>"; };
+		232D11AE14CE073E00703D4E /* icn-social-twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn-social-twitter.png"; sourceTree = "<group>"; };
+		232D11AF14CE073E00703D4E /* icn-social-twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn-social-twitter@2x.png"; sourceTree = "<group>"; };
+		232D11B014CE073E00703D4E /* twitter_loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter_loading.png; sourceTree = "<group>"; };
+		232D11BA14CE075C00703D4E /* icn-settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn-settings.png"; sourceTree = "<group>"; };
+		232D11BB14CE075C00703D4E /* icn-settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn-settings@2x.png"; sourceTree = "<group>"; };
+		232D11F914CE15E500703D4E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		232D11FB14CE15FA00703D4E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		232D11FD14CE160100703D4E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		232D11FF14CE160900703D4E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		232D120C14CF1EAC00703D4E /* icn-social-blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn-social-blank.png"; sourceTree = "<group>"; };
+		232D120D14CF1EAC00703D4E /* icn-social-blank@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn-social-blank@2x.png"; sourceTree = "<group>"; };
+		232D120E14CF1EAC00703D4E /* icn-social-onesite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn-social-onesite.png"; sourceTree = "<group>"; };
+		232D120F14CF1EAC00703D4E /* icn-social-onesite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn-social-onesite@2x.png"; sourceTree = "<group>"; };
+		232D121414CF1F5B00703D4E /* navbar-notitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar-notitle.png"; sourceTree = "<group>"; };
+		232D121514CF1F5B00703D4E /* navbar-notitle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar-notitle@2x.png"; sourceTree = "<group>"; };
+		232D121814CF230300703D4E /* ui-add-photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ui-add-photo.png"; sourceTree = "<group>"; };
+		232D121914CF230300703D4E /* ui-add-photo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ui-add-photo@2x.png"; sourceTree = "<group>"; };
+		232D121A14CF230300703D4E /* ui-photo-border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ui-photo-border.png"; sourceTree = "<group>"; };
+		232D121B14CF230300703D4E /* ui-photo-border@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ui-photo-border@2x.png"; sourceTree = "<group>"; };
+		232D122B14CF5BA200703D4E /* ui-table-background-cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ui-table-background-cell.png"; sourceTree = "<group>"; };
+		232D122C14CF5BA200703D4E /* ui-table-background-cell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ui-table-background-cell@2x.png"; sourceTree = "<group>"; };
+		232D122F14CF678300703D4E /* btn-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-green.png"; sourceTree = "<group>"; };
+		232D123014CF678300703D4E /* btn-green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-green@2x.png"; sourceTree = "<group>"; };
+		232D123314CF69D800703D4E /* btn-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-red.png"; sourceTree = "<group>"; };
+		232D123414CF69D800703D4E /* btn-red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-red@2x.png"; sourceTree = "<group>"; };
+		232D123714CF6A9300703D4E /* btn-gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-gray.png"; sourceTree = "<group>"; };
+		232D123814CF6A9300703D4E /* btn-gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-gray@2x.png"; sourceTree = "<group>"; };
+		232D123B14D056A000703D4E /* UIDatePickerActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDatePickerActionSheet.h; sourceTree = "<group>"; };
+		232D123C14D056A100703D4E /* UIDatePickerActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDatePickerActionSheet.m; sourceTree = "<group>"; };
+		232D123E14D07A9100703D4E /* SmallerUITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallerUITableViewCell.h; sourceTree = "<group>"; };
+		232D123F14D07A9200703D4E /* SmallerUITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmallerUITableViewCell.m; sourceTree = "<group>"; };
+		23B1EA9D16138BB700EF16E3 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		23B1EA9E16138BB700EF16E3 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
+		23B1EAA31614C16800EF16E3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		232D115314CDF87A00703D4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232D120B14CF15FF00703D4E /* libz.dylib in Frameworks */,
+				232D120A14CF15F500703D4E /* CoreGraphics.framework in Frameworks */,
+				232D120914CF15EC00703D4E /* MobileCoreServices.framework in Frameworks */,
+				232D120814CF15DA00703D4E /* SystemConfiguration.framework in Frameworks */,
+				232D120714CF15D300703D4E /* CFNetwork.framework in Frameworks */,
+				232D118A14CDF95D00703D4E /* libonesite_ios_sdk.a in Frameworks */,
+				232D115B14CDF87A00703D4E /* UIKit.framework in Frameworks */,
+				232D115D14CDF87A00703D4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		232D114B14CDF87A00703D4E = {
+			isa = PBXGroup;
+			children = (
+				232D116014CDF87A00703D4E /* example */,
+				232D115914CDF87A00703D4E /* Frameworks */,
+				232D11A714CE073E00703D4E /* Images */,
+				232D115714CDF87A00703D4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		232D115714CDF87A00703D4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				232D115614CDF87A00703D4E /* example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		232D115914CDF87A00703D4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				232D117A14CDF88A00703D4E /* onesite-ios-sdk.xcodeproj */,
+				232D11FF14CE160900703D4E /* libz.dylib */,
+				232D11F914CE15E500703D4E /* CFNetwork.framework */,
+				232D115E14CDF87A00703D4E /* CoreGraphics.framework */,
+				232D115C14CDF87A00703D4E /* Foundation.framework */,
+				232D11FB14CE15FA00703D4E /* MobileCoreServices.framework */,
+				232D11FD14CE160100703D4E /* SystemConfiguration.framework */,
+				232D115A14CDF87A00703D4E /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		232D116014CDF87A00703D4E /* example */ = {
+			isa = PBXGroup;
+			children = (
+				232D116914CDF87A00703D4E /* AppDelegate.h */,
+				232D116A14CDF87A00703D4E /* AppDelegate.m */,
+				232D11A414CE033F00703D4E /* DDSSocialAccounts.h */,
+				232D11A514CE033F00703D4E /* DDSSocialAccounts.m */,
+				232D118D14CDFA3B00703D4E /* MainViewController.h */,
+				232D118E14CDFA3B00703D4E /* MainViewController.m */,
+				232D11A114CDFF5700703D4E /* SettingsViewController.h */,
+				232D11A214CDFF5700703D4E /* SettingsViewController.m */,
+				23B1EA9D16138BB700EF16E3 /* SignupViewController.h */,
+				23B1EA9E16138BB700EF16E3 /* SignupViewController.m */,
+				232D123E14D07A9100703D4E /* SmallerUITableViewCell.h */,
+				232D123F14D07A9200703D4E /* SmallerUITableViewCell.m */,
+				232D116114CDF87A00703D4E /* Supporting Files */,
+				232D123B14D056A000703D4E /* UIDatePickerActionSheet.h */,
+				232D123C14D056A100703D4E /* UIDatePickerActionSheet.m */,
+			);
+			path = example;
+			sourceTree = "<group>";
+		};
+		232D116114CDF87A00703D4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				232D116214CDF87A00703D4E /* example-Info.plist */,
+				232D116814CDF87A00703D4E /* example-Prefix.pch */,
+				232D116314CDF87A00703D4E /* InfoPlist.strings */,
+				232D116614CDF87A00703D4E /* main.m */,
+				232D119014CDFA8400703D4E /* onesite.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		232D117B14CDF88A00703D4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				232D118614CDF88A00703D4E /* libonesite_ios_sdk.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		232D11A714CE073E00703D4E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				232D11A814CE073E00703D4E /* btn-back.png */,
+				232D11A914CE073E00703D4E /* btn-back@2x.png */,
+				232D123714CF6A9300703D4E /* btn-gray.png */,
+				232D123814CF6A9300703D4E /* btn-gray@2x.png */,
+				232D122F14CF678300703D4E /* btn-green.png */,
+				232D123014CF678300703D4E /* btn-green@2x.png */,
+				232D123314CF69D800703D4E /* btn-red.png */,
+				232D123414CF69D800703D4E /* btn-red@2x.png */,
+				23B1EAA31614C16800EF16E3 /* Default-568h@2x.png */,
+				232D11BA14CE075C00703D4E /* icn-settings.png */,
+				232D11BB14CE075C00703D4E /* icn-settings@2x.png */,
+				232D120C14CF1EAC00703D4E /* icn-social-blank.png */,
+				232D120D14CF1EAC00703D4E /* icn-social-blank@2x.png */,
+				232D11AA14CE073E00703D4E /* icn-social-facebook.png */,
+				232D11AB14CE073E00703D4E /* icn-social-facebook@2x.png */,
+				232D11AC14CE073E00703D4E /* icn-social-google.png */,
+				232D11AD14CE073E00703D4E /* icn-social-google@2x.png */,
+				232D120E14CF1EAC00703D4E /* icn-social-onesite.png */,
+				232D120F14CF1EAC00703D4E /* icn-social-onesite@2x.png */,
+				232D11AE14CE073E00703D4E /* icn-social-twitter.png */,
+				232D11AF14CE073E00703D4E /* icn-social-twitter@2x.png */,
+				232D121414CF1F5B00703D4E /* navbar-notitle.png */,
+				232D121514CF1F5B00703D4E /* navbar-notitle@2x.png */,
+				232D11B014CE073E00703D4E /* twitter_loading.png */,
+				232D121814CF230300703D4E /* ui-add-photo.png */,
+				232D121914CF230300703D4E /* ui-add-photo@2x.png */,
+				232D121A14CF230300703D4E /* ui-photo-border.png */,
+				232D121B14CF230300703D4E /* ui-photo-border@2x.png */,
+				232D122B14CF5BA200703D4E /* ui-table-background-cell.png */,
+				232D122C14CF5BA200703D4E /* ui-table-background-cell@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		232D115514CDF87A00703D4E /* example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 232D117714CDF87A00703D4E /* Build configuration list for PBXNativeTarget "example" */;
+			buildPhases = (
+				232D115214CDF87A00703D4E /* Sources */,
+				232D115314CDF87A00703D4E /* Frameworks */,
+				232D115414CDF87A00703D4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				232D118914CDF95700703D4E /* PBXTargetDependency */,
+			);
+			name = example;
+			productName = example;
+			productReference = 232D115614CDF87A00703D4E /* example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		232D114D14CDF87A00703D4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = ONESite;
+			};
+			buildConfigurationList = 232D115014CDF87A00703D4E /* Build configuration list for PBXProject "example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 232D114B14CDF87A00703D4E;
+			productRefGroup = 232D115714CDF87A00703D4E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 232D117B14CDF88A00703D4E /* Products */;
+					ProjectRef = 232D117A14CDF88A00703D4E /* onesite-ios-sdk.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				232D115514CDF87A00703D4E /* example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		232D118614CDF88A00703D4E /* libonesite_ios_sdk.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libonesite_ios_sdk.a;
+			remoteRef = 232D118514CDF88A00703D4E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		232D115414CDF87A00703D4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232D116514CDF87A00703D4E /* InfoPlist.strings in Resources */,
+				232D119114CDFA8400703D4E /* onesite.plist in Resources */,
+				232D11B114CE073E00703D4E /* btn-back.png in Resources */,
+				232D11B214CE073E00703D4E /* btn-back@2x.png in Resources */,
+				232D11B314CE073E00703D4E /* icn-social-facebook.png in Resources */,
+				232D11B414CE073E00703D4E /* icn-social-facebook@2x.png in Resources */,
+				232D11B514CE073E00703D4E /* icn-social-google.png in Resources */,
+				232D11B614CE073E00703D4E /* icn-social-google@2x.png in Resources */,
+				232D11B714CE073E00703D4E /* icn-social-twitter.png in Resources */,
+				232D11B814CE073E00703D4E /* icn-social-twitter@2x.png in Resources */,
+				232D11B914CE073E00703D4E /* twitter_loading.png in Resources */,
+				232D11BC14CE075C00703D4E /* icn-settings.png in Resources */,
+				232D11BD14CE075C00703D4E /* icn-settings@2x.png in Resources */,
+				232D121014CF1EAC00703D4E /* icn-social-blank.png in Resources */,
+				232D121114CF1EAC00703D4E /* icn-social-blank@2x.png in Resources */,
+				232D121214CF1EAC00703D4E /* icn-social-onesite.png in Resources */,
+				232D121314CF1EAC00703D4E /* icn-social-onesite@2x.png in Resources */,
+				232D121614CF1F5B00703D4E /* navbar-notitle.png in Resources */,
+				232D121714CF1F5B00703D4E /* navbar-notitle@2x.png in Resources */,
+				232D121C14CF230300703D4E /* ui-add-photo.png in Resources */,
+				232D121D14CF230300703D4E /* ui-add-photo@2x.png in Resources */,
+				232D121E14CF230300703D4E /* ui-photo-border.png in Resources */,
+				232D121F14CF230300703D4E /* ui-photo-border@2x.png in Resources */,
+				232D122D14CF5BA200703D4E /* ui-table-background-cell.png in Resources */,
+				232D122E14CF5BA200703D4E /* ui-table-background-cell@2x.png in Resources */,
+				232D123114CF678300703D4E /* btn-green.png in Resources */,
+				232D123214CF678300703D4E /* btn-green@2x.png in Resources */,
+				232D123514CF69D800703D4E /* btn-red.png in Resources */,
+				232D123614CF69D800703D4E /* btn-red@2x.png in Resources */,
+				232D123914CF6A9300703D4E /* btn-gray.png in Resources */,
+				232D123A14CF6A9300703D4E /* btn-gray@2x.png in Resources */,
+				23B1EAA41614C16800EF16E3 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		232D115214CDF87A00703D4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232D116714CDF87A00703D4E /* main.m in Sources */,
+				232D116B14CDF87A00703D4E /* AppDelegate.m in Sources */,
+				232D118F14CDFA3B00703D4E /* MainViewController.m in Sources */,
+				232D11A314CDFF5700703D4E /* SettingsViewController.m in Sources */,
+				232D11A614CE033F00703D4E /* DDSSocialAccounts.m in Sources */,
+				232D123D14D056A100703D4E /* UIDatePickerActionSheet.m in Sources */,
+				232D124014D07A9200703D4E /* SmallerUITableViewCell.m in Sources */,
+				23B1EA9F16138BB700EF16E3 /* SignupViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		232D118914CDF95700703D4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "onesite-ios-sdk";
+			targetProxy = 232D118814CDF95700703D4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		232D116314CDF87A00703D4E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				232D116414CDF87A00703D4E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		232D117514CDF87A00703D4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		232D117614CDF87A00703D4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		232D117814CDF87A00703D4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "example/example-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/../src/**",
+					"${SRCROOT}/../Frameworks/**",
+				);
+				INFOPLIST_FILE = "example/example-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		232D117914CDF87A00703D4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "example/example-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/../src/**",
+					"${SRCROOT}/../Frameworks/**",
+				);
+				INFOPLIST_FILE = "example/example-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		232D115014CDF87A00703D4E /* Build configuration list for PBXProject "example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				232D117514CDF87A00703D4E /* Debug */,
+				232D117614CDF87A00703D4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		232D117714CDF87A00703D4E /* Build configuration list for PBXNativeTarget "example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				232D117814CDF87A00703D4E /* Debug */,
+				232D117914CDF87A00703D4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 232D114D14CDF87A00703D4E /* Project object */;
+}

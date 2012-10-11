@@ -1,0 +1,11 @@
+OAuthConsumer
+-------------
+Modified version of the OAuth Consumer implementation in Objective-C from http://code.google.com/p/oauthconsumer/ 
+
+Usage
+-----
+
+Code License
+------------
+MIT License
+

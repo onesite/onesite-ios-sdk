@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'onesite-ios-sdk' target in the 'onesite-ios-sdk' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+    #import "Logging.h"
+#endif
